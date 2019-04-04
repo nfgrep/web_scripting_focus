@@ -1,0 +1,175 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background-attachment: fixed;
+  overflow: hidden;
+  font-family: 'Libre Franklin', serif;
+  font-weight: 400;
+  background-color: white;
+  color: white;
+}
+
+h1.titleTxt{
+  font-size: 50px;
+  /*
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -400%);*/
+}
+
+li{
+  margin: 0 auto;
+}
+
+li:hover{
+
+}
+
+#nameForm{
+  -webkit-animation: infrombot 1.7s  cubic-bezier(0.2, 1.3, 1, 0.7);
+}
+
+#txtName{
+  color: white;
+  text-align: center;
+  outline: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  color: white;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+}
+
+#topL{
+  border-style: inset;
+  float: left;
+}
+
+#topR{
+  border-style: inset;
+  float: right;
+}
+
+#homePageCenter{
+  padding-left: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+#clock.titleTxt{
+  font-size: 150px;
+}
+
+#message{
+  -webkit-animation: infrombot 1s  cubic-bezier(0.2, 1.3, 1, 0.7);
+}
+
+#focusPrompt{
+  -webkit-animation: infrombot 1.5s  cubic-bezier(0.2, 1.3, 1, 0.7);
+}
+.centerContainer{
+  height: auto;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.titleTxt{
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
+  text-shadow: 0px 10px 200px black;
+  color: white;
+  -webkit-animation: fadein 3.5s cubic-bezier(0.165, 0.780, 0.000, 0.990);
+}
+
+.headingTxt{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 0px 5px 150px black;
+  color: white;
+}
+
+.blockTxt{
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  text-shadow: 0px 1px 100px black;
+  color: white;
+  transition: opacity 1s ease-out;
+}
+
+.textInput{
+  text-align: center;
+  color: white;
+  outline: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+}
+
+.inpForm{
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: solid white;
+}
+
+
+
+
+
+@-webkit-keyframes fadein {
+  0% {
+    color: rgba(0,0,0,0);
+  }
+  50%{
+    color: rgba(0,0,0,0);
+  }
+
+  100% {
+    color: rgba(255,255,255,255);
+  }
+}
+
+@-webkit-keyframes infrombot {
+  0% {
+
+    /*position: absolute;*/
+    /*top: 0%;*/
+    transform: translate(0, 1000%);
+  }
+
+  100% {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    transform: translate(0,0);
+  }
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+
+    /*position: absolute;*/
+    /*top: 0%;*/
+    transform: translate(0, 50%);
+  }
+
+  100% {
+    /*position: absolute;*/
+    /*top: 50%;*/
+    transform: translate(0,0);
+  }
+}
