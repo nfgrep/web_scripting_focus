@@ -16,4 +16,9 @@ Tested with Google Chrome and Safari
 Download a zip or clone to a directory on your system and open the index.html file.
 ## Screenshot
 <img width="1356" alt="Screen Shot 2019-04-05 at 5 41 16 PM" src="https://user-images.githubusercontent.com/38052787/55658170-b7319100-57ca-11e9-955b-28add9806897.png">
+## GIF:
+
+<img src=https://user-images.githubusercontent.com/38052787/55659394-696b5780-57cf-11e9-9bae-646b75fb71f8.gif>
+
+
 
