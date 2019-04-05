@@ -4,7 +4,7 @@ A simple home-page style productivity app
 ## Group Members:
 Nathan Faber-Good - 991474104 <br>
 Tommas Meeussen - 991524231 <br>
-Scott McGhee? McPhee? cant remember.
+Scott McGhie - 991529705.
 ## Tech Used:
 HTML, CSS, JS <br>
 Edited with Atom <br>
