@@ -5,24 +5,53 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Libre+Franklin:400,700" rel="stylesheet">
-  
+
 </head>
 
 <body id="backdrop">
   <div id="main" >
-
       <div id="homeDiv" >
+        <div id="topR" class="tinyTxt">
+          <img id="weatherImage"></img><span id="temp"></span>
+        </div>
+        <div id="topL">
+          <form method="get" action="http://www.google.com/search" target="_blank">
+          <div id="seachBarDiv">
+          <input id="searchBtn" type="image" src="img/search-icon.png" >
+          </input>
+          <input id="searchInp" type="text" class="textInput"/>
+          </div>
+
+          </form>
+        </div>
         <ul id="homePageCenter" class="centerContainer">
           <li id="clock" class="titleTxt"></li>
           <li id="message" class="headingTxt">Good <span id="timeString"></span> <span id="nameSpan"></span></li>
           <li id="focusPrompt" class="blockTxt">
-            What is your main focus for today?
-            <br>
-            <div id="focusForm" class="inpForm">
+
+            <div id="focusForm">
+              What is your main focus for today?
+              <br>
               <input id="txtFocus" class="textInput" type="text">
             </div>
+            <span id="focusList" class="hid">
+
+
+            </span><img id="removeFcsButton" class="hid" onclick="removeFcs()" src="img/del1.png" ></img>
           </li>
         </ul>
+        <div id="botC" class="tinyTxt">
+          <p id="quote">"Reality is just a crutch for people who can't cope with drugs." - Robin Williams</p>
+        </div>
+        <div id="botR" class="tinyTxt">
+          <div id="todoList" class="hid" >
+            <div id="todos">
+            </div>
+
+            <input id="todoInput" type="text" class="textInput" placeholder="New Todo"></input>
+          </div>
+          <p id="todoButton" class="blockTxt" onclick="todoClick()">Todo</p>
+        </div>
       </div>
 
       <div id="introDiv" class="centerContainer">
