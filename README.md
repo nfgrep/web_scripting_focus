@@ -1,4 +1,4 @@
-# Web-Scripting_Assingment2-3 : Focus App
+# Focus App Mockup
 
 A simple home-page style productivity app
 ## Group Members:
